@@ -5,8 +5,9 @@ function setup() {
 
 function draw()
 {       
+
     background(150, 150, 250);
-    
+  
     //Pterodactilo
     fill(255);
     beginShape();
@@ -30,7 +31,7 @@ function draw()
         ellipse(155, 60, 8, 8);
     }
     
-    //Pterodactilo
+    //Pterodactilo 2
     fill(255);
     beginShape();
     strokeJoin(ROUND);
