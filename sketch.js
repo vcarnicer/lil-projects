@@ -21,17 +21,14 @@ function draw()
     vertex(140, 100);
     vertex(130, 120);
     endShape();
-    fill(0);
+    fill(0);    
     
     
-    //Codigo de Victor
     if(frameCount % 40 > 0 && frameCount % 40 < 10){
         line(150, 60, 160, 60);
     } else {
         ellipse(155, 60, 8, 8);
     }
-    //Codigo de Victor END
-    
     
     //Pterodactilo
     fill(255);
@@ -49,11 +46,10 @@ function draw()
     endShape();
     fill(0);
     
-      //Codigo de Victor
+    
     if(frameCount % 40 > 5 && frameCount % 40 < 15){
         line(340, 50, 350, 50);
     } else {
         ellipse(345, 50, 10, 10)
     }
-    //Codigo de Victor END
 }
