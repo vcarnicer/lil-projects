@@ -5,8 +5,9 @@ function setup() {
 
 function draw()
 {       
-    background(60, 150, 60);
-    
+
+    background(150, 150, 250);
+  
     //Pterodactilo
     fill(255);
     beginShape();
