@@ -24,7 +24,7 @@ function draw()
     fill(0);    
     
     
-    if(frameCount % 40 > 0 && frameCount % 40 < 10){
+    if(frameCount % 40 > 0 && frameCount % 40 < 20){
         line(150, 60, 160, 60);
     } else {
         ellipse(155, 60, 8, 8);
