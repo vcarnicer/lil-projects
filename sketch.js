@@ -5,7 +5,7 @@ function setup() {
 
 function draw()
 {       
-    background(204);
+    background(150, 150, 60);
     
     //Pterodactilo
     fill(255);
